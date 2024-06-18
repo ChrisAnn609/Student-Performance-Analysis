@@ -118,7 +118,11 @@ AVERAGEX(
 ```
 ### Results Of Findings
 
-- Attendance had little to no impact on the performance of the Students.
+- Attendance had little to no impact on the performance of the Students. In the case of one of the students- Daniel Garcia; he achieved the highest average in the class, however, was ironically absent for 30 out of the 40 days in the semester.
+- There were more Male students than Female students. Majority of the students were from Kingston, Jamaica.
+- The overall class average was 62.95% or Grade C.
+- Majority of the students were of Indian descent.
+- 
 
 
 ### Recommendations
