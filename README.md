@@ -48,14 +48,18 @@ In the initial data preparation phase, the following tasks were performed:
 - Data cleaning and formatting
 
 ### Exploratory Data Analysis
-  Exploratory Data Analysis involved exploring the Student Performance Data Analysis data to answer key questions such as:
+Exploratory Data Analysis involved exploring the Student Performance Data Analysis data to answer key questions such as:
 -What are the trends in test scores over time and by subject?
 - Which students have the highest performance and what are their demographic characteristics?
 -Are there correlations between Test preparation course completion, lunch( free/reduced or standard) and test scores?
 -Are there correlations between attendance and test scores?
 - Are there correlations between Parental level of education and student's academic performance?
     
-The visualizations used to answer this question included: Slicers, cards, Line charts, Bar charts, World Map, Scatter Plots and Pie Charts.
+The visualizations used to answer this question included: Slicers, cards, Line charts, Bar charts, World Map, Scatter Plots and Pie Charts. For this project, there were 226 students enrolled- 145 or 64% males and 81 or 36% females. The students were from four(4) different countries- Jamaica, Barbados, St. Lucia and Trinindad & Tobago. The 226 students were attached to different faculties namely, the Faculty of Business and Management, Faculty of Computer Science, Faculty of Education, Faculty of Engineering, Faculty of Fine and Performing Arts, Faculty of Health Sciences, Faculty of Humanities, Faculty of Mathematics & Statistics, Faculty of Natural Sciences and the Faculty of Social Sciences. All the students are at the College level and as a result, there are six(6) compulsory courses, which must be passed in order to matriculate into their respective majors. The compulsory courses are: Mathematics(MA2024),Writing(WR2024), Biology(BI2024), Physics(PH2024), Chemistry(CH2024) and Reading(RE2024).
+
+This project explored both the demographics and socio-economic background of the students. Of the 226 students, 87 (38.50%) were of Indian ethnicity, while 71 (31.42%) were of Chinese ethnicity and the remaining 68(30.09%) of African ethnicity. Throughout Semester I-2023, some students who completed test preparation courses, geared towards helping them grasp the concepts of each course with the final exams, while other students did no test preparation courses. There were also some students who received free/reduced lunches, which would have been sponsored by the School, Government or by a donor, while other students purchased the standardized lunch from the School canteen. The Parental educational level was also explored. 64 of the parents obtained an Associate's Degree from a College or University, while 46 parents attended some College, however, did not complete their studies. 42 parents obtained a High School diploma, while another 42 parents attended High School, however, did not receive a High School diploma. 22 parents are holders of a Bachelor's of Science Degree and 10 parents are holders of a Master's Degree.
+
+At the end of Semester I-2023, 122 students obtained a grade C, 36 students obtained a grade B, 36 students obtained a grade F while 32 students obtained a grade A.
  
 ### Data Analysis
 The following metrics were calculated using DAX formulas:
@@ -118,11 +122,15 @@ AVERAGEX(
 ```
 ### Results Of Findings
 
-- Attendance had little to no impact on the performance of the Students. In the case of one of the students- Daniel Garcia; he achieved the highest average in the class, however, was ironically absent for 30 out of the 40 days in the semester.
-- There were more Male students than Female students. Majority of the students were from Kingston, Jamaica.
-- The overall class average was 62.95% or Grade C.
-- Majority of the students were of Indian descent.
-- 
+- Attendance had little to no impact on the performance of the Students. In the case of one of the students- Daniel Garcia; he achieved the highest average in the class,despite being absent for 30 out of the 40 days in the semester.
+- There were more Male students than Female students. Majority of the students were from Kingston, Jamaica while the least common city and country of residence was Bridgetown, Barbados.
+- The overall class average was 62.95% (Grade C).
+- There was little to no parental involvement in the students' education.
+- A higher parental level of education had no little to no impact on the performance of the Students.
+- There was a gradual decline in attendance as the semester progressed, with higher attendance in September and October.
+- The course Reading (RE2024) had the highest overall average while the Physics course (PHY2024) recorded the lowest overall average.
+- The average scores of students who completed test preparation courses did not significantly differ from those who did not complete these courses.
+- The students generally lacked motivation to excel in their studies.
 
 
 ### Recommendations
@@ -133,4 +141,5 @@ Based on the analysis, the following actions are recommended:
   
 
 ### Limitations
-  Some records had to be excluded, as the accuracy of the analysis conclusion would have been affected.
+- Some records had to be excluded, as the accuracy of the analysis conclusion would have been affected.
+- The dataset might lack certain variables that could provide a more comprehensive analysis.
