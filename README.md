@@ -49,10 +49,10 @@ In the initial data preparation phase, the following tasks were performed:
 
 ### Exploratory Data Analysis
 Exploratory Data Analysis involved exploring the Student Performance Data Analysis data to answer key questions such as:
--What are the trends in test scores over time and by subject?
+- What are the trends in test scores over time and by subject?
 - Which students have the highest performance and what are their demographic characteristics?
--Are there correlations between Test preparation course completion, lunch( free/reduced or standard) and test scores?
--Are there correlations between attendance and test scores?
+- Are there correlations between Test preparation course completion, lunch( free/reduced or standard) and test scores?
+- Are there correlations between attendance and test scores?
 - Are there correlations between Parental level of education and student's academic performance?
     
 The visualizations used to answer this question included: Slicers, cards, Line charts, Bar charts, World Map, Scatter Plots and Pie Charts. For this project, there were 226 students enrolled- 145 or 64% males and 81 or 36% females. The students were from four(4) different countries- Jamaica, Barbados, St. Lucia and Trinindad & Tobago. The 226 students were attached to different faculties namely, the Faculty of Business and Management, Faculty of Computer Science, Faculty of Education, Faculty of Engineering, Faculty of Fine and Performing Arts, Faculty of Health Sciences, Faculty of Humanities, Faculty of Mathematics & Statistics, Faculty of Natural Sciences and the Faculty of Social Sciences. All the students are at the College level and as a result, there are six(6) compulsory courses, which must be passed in order to matriculate into their respective majors. The compulsory courses are: Mathematics(MA2024),Writing(WR2024), Biology(BI2024), Physics(PH2024), Chemistry(CH2024) and Reading(RE2024).
